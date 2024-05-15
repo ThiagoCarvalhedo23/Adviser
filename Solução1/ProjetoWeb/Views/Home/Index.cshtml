@@ -2,22 +2,45 @@
     ViewData["Title"] = "Upload";
 }
 
-<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upload de Arquivos</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        form {
+            text-align: center;
+        }
+        input[type="submit"] {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body>
-    <h2>Upload de Arquivos</h2>
+    <div class="container-fluid">
+        <div class="text-center">
+             <h1>Upload de Arquivos</h1>
+        </div>
+    </div>
+    
     <form action="/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="fileToUpload" id="fileToUpload" accept=".txt, .pdf, .doc, .docx"> <!-- Adicione os tipos de arquivo permitidos no atributo accept -->
+        <input type="file" name="fileToUpload" id="fileToUpload" accept=".txt, .pdf, .doc, .docx"> 
         <br><br>
         <input type="submit" value="Enviar Arquivo">
     </form>
 </body>
+</html>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
