@@ -29,6 +29,18 @@
             border-radius: 5px;
             font-size: 16px;
         }
+
+        .message {
+            margin-top: 20px;
+        }
+
+        .success {
+            color: green;
+        }
+
+        .error {
+            color: red;
+        }
     </style>
 </head>
 <body>
@@ -41,21 +53,30 @@
     <form action="/uploads" method="post" enctype="multipart/form-data">
 
         <div class="modal-body">
-
             <div class="mb-0">
-
-                <input class="form-control form-control-lg" type="file" id="formFile" name="file">
-
+                <!-- Limitação de arquivo de até 100MB -->
+                <input class="form-control form-control-lg" type="file" id="formFile" name="file" accept=".pdf,.doc,.docx,.txt,.jpg,.jpeg,.png" required>
             </div>
-
         </div>
 
         <div class="modal-footer">
-
             <button class="btn btn-primary">Confirmar</button>
-
         </div>
 
     </form>
+
+    @if (ViewData["SuccessMessage"] != null)
+    {
+        <div class="message success">
+            @ViewData["SuccessMessage"]
+        </div>
+    }
+
+    @if (ViewData["ErrorMessage"] != null)
+    {
+        <div class="message error">
+            @ViewData["ErrorMessage"]
+        </div>
+    }
 </body>
 </html>

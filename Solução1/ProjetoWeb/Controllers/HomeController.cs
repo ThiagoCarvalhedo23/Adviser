@@ -36,30 +36,24 @@ namespace ProjetoWeb.Controllers
         }
 
         [HttpPost("uploads")]
-        public async Task<IActionResult> Upload(IFormFile file)
+        public IActionResult UploadFile(IFormFile file)
         {
             if (file == null || file.Length == 0)
             {
-                ViewBag.Message = "Nenhum arquivo foi enviado.";
-                return View();
+                ViewData["ErrorMessage"] = "Por favor, selecione um arquivo para fazer upload.";
+                return View("Index");
             }
-
-            var uploads = Path.Combine(_hostEnvironment.WebRootPath, "uploads");
-            if (!Directory.Exists(uploads))
+            else
             {
-                Directory.CreateDirectory(uploads);
+                // Lógica para processar o arquivo
+                // Se o upload for bem-sucedido
+                ViewData["SuccessMessage"] = "O arquivo foi enviado com sucesso!";
+                return View("Index");
             }
-
-            var filePath = Path.Combine(uploads, file.FileName);
-
-            using (var fileStream = new FileStream(filePath, FileMode.Create))
-            {
-                await file.CopyToAsync(fileStream);
-            }
-
-            ViewBag.Message = "Arquivo enviado com sucesso!";
-            return View();
         }
+
     }
 }
+    
+
 

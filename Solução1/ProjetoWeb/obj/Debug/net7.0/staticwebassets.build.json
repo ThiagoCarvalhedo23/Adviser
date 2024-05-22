@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8YrIB/cHj9dyqmMhPC4U0bBMedXincZnZdEgdlo1Vm4=",
+  "Hash": "mZesf0INxYqHpNQamSfeHipVU8CJI0bVnn6mrgVML+M=",
   "Source": "ProjetoWeb",
   "BasePath": "_content/ProjetoWeb",
   "Mode": "Default",
@@ -1195,6 +1195,25 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\thiago.carvalhedo\\source\\repos\\Adviser\\Solução1\\ProjetoWeb\\wwwroot\\uploads\\~$gas para juju.docx",
+      "SourceId": "ProjetoWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\thiago.carvalhedo\\source\\repos\\Adviser\\Solução1\\ProjetoWeb\\wwwroot\\",
+      "BasePath": "_content/ProjetoWeb",
+      "RelativePath": "uploads/~$gas para juju.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\~$gas para juju.docx"
+    },
+    {
       "Identity": "C:\\Users\\thiago.carvalhedo\\source\\repos\\Adviser\\Solução1\\ProjetoWeb\\wwwroot\\uploads\\Cadastro.ThiagoCarvalhedo.docx",
       "SourceId": "ProjetoWeb",
       "SourceType": "Discovered",
@@ -1212,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\Cadastro.ThiagoCarvalhedo.docx"
+    },
+    {
+      "Identity": "C:\\Users\\thiago.carvalhedo\\source\\repos\\Adviser\\Solução1\\ProjetoWeb\\wwwroot\\uploads\\desktop.ini",
+      "SourceId": "ProjetoWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\thiago.carvalhedo\\source\\repos\\Adviser\\Solução1\\ProjetoWeb\\wwwroot\\",
+      "BasePath": "_content/ProjetoWeb",
+      "RelativePath": "uploads/desktop.ini",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\desktop.ini"
     }
   ]
 }

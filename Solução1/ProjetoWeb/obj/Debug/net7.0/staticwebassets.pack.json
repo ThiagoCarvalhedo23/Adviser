@@ -249,6 +249,14 @@
       "PackagePath": "staticwebassets\\uploads\\Cadastro.ThiagoCarvalhedo.docx"
     },
     {
+      "Id": "C:\\Users\\thiago.carvalhedo\\source\\repos\\Adviser\\Solução1\\ProjetoWeb\\wwwroot\\uploads\\desktop.ini",
+      "PackagePath": "staticwebassets\\uploads\\desktop.ini"
+    },
+    {
+      "Id": "C:\\Users\\thiago.carvalhedo\\source\\repos\\Adviser\\Solução1\\ProjetoWeb\\wwwroot\\uploads\\~$gas para juju.docx",
+      "PackagePath": "staticwebassets\\uploads\\~$gas para juju.docx"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ProjetoWeb.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
