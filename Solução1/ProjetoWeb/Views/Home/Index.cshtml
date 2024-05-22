@@ -15,9 +15,11 @@
             height: 100vh;
             margin: 0;
         }
+
         form {
             text-align: center;
         }
+
         input[type="submit"] {
             background-color: blue;
             color: white;
@@ -32,15 +34,28 @@
 <body>
     <div class="container-fluid">
         <div class="text-center">
-             <h1>Upload de Arquivos</h1>
+            <h1>Upload de Arquivos</h1>
         </div>
     </div>
-    
-    <form action="/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="fileToUpload" id="fileToUpload" accept=".txt, .pdf, .doc, .docx"> 
-        <br><br>
-        <input type="submit" value="Enviar Arquivo">
+
+    <form action="/uploads" method="post" enctype="multipart/form-data">
+
+        <div class="modal-body">
+
+            <div class="mb-0">
+
+                <input class="form-control form-control-lg" type="file" id="formFile" name="file">
+
+            </div>
+
+        </div>
+
+        <div class="modal-footer">
+
+            <button class="btn btn-primary">Confirmar</button>
+
+        </div>
+
     </form>
 </body>
 </html>
-

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RmYmWDV/LpJrMU4MBIzMmeWFMnW6gR7Z3u2CYbarOs0=",
+  "Hash": "8YrIB/cHj9dyqmMhPC4U0bBMedXincZnZdEgdlo1Vm4=",
   "Source": "ProjetoWeb",
   "BasePath": "_content/ProjetoWeb",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\thiago.carvalhedo\\source\\repos\\Adviser\\Solução1\\ProjetoWeb\\wwwroot\\uploads\\Cadastro.ThiagoCarvalhedo.docx",
+      "SourceId": "ProjetoWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\thiago.carvalhedo\\source\\repos\\Adviser\\Solução1\\ProjetoWeb\\wwwroot\\",
+      "BasePath": "_content/ProjetoWeb",
+      "RelativePath": "uploads/Cadastro.ThiagoCarvalhedo.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Cadastro.ThiagoCarvalhedo.docx"
     }
   ]
 }
