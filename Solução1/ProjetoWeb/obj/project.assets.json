@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thiago.carvalhedo\\source\\Adviser\\Solução1\\ProjetoWeb\\ProjetoWeb.csproj",
+      "projectUniqueName": "C:\\Users\\thiago.carvalhedo\\source\\repos\\Adviser\\Solução1\\ProjetoWeb\\ProjetoWeb.csproj",
       "projectName": "ProjetoWeb",
-      "projectPath": "C:\\Users\\thiago.carvalhedo\\source\\Adviser\\Solução1\\ProjetoWeb\\ProjetoWeb.csproj",
+      "projectPath": "C:\\Users\\thiago.carvalhedo\\source\\repos\\Adviser\\Solução1\\ProjetoWeb\\ProjetoWeb.csproj",
       "packagesPath": "C:\\Users\\thiago.carvalhedo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thiago.carvalhedo\\source\\Adviser\\Solução1\\ProjetoWeb\\obj\\",
+      "outputPath": "C:\\Users\\thiago.carvalhedo\\source\\repos\\Adviser\\Solução1\\ProjetoWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thiago.carvalhedo\\AppData\\Roaming\\NuGet\\NuGet.Config",

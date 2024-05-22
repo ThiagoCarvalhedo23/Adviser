@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="C:\Users\thiago.carvalhedo\source\repos\Index.cshtml" Link="Index.cshtml" />
+  </ItemGroup>
+
 </Project>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Ca7NGzQTVob6YXeKUqKIXxbYwksB7k+jAvR0wFx7K39S6XrVnUwxXXfosCTvb7s7qRCuIFjI5sTxbSnMMogBQ==",
+  "dgSpecHash": "+9GxV110O5rqkgyEdNNvv6nvPumyosqIUoyPV9Ud7e8/QvSHaNEiadLNE1Z8lkzonnv8BbKA1qVRvFvV07UCAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thiago.carvalhedo\\source\\Adviser\\Solução1\\ProjetoWeb\\ProjetoWeb.csproj",
+  "projectFilePath": "C:\\Users\\thiago.carvalhedo\\source\\repos\\Adviser\\Solução1\\ProjetoWeb\\ProjetoWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thiago.carvalhedo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
     "C:\\Users\\thiago.carvalhedo\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
