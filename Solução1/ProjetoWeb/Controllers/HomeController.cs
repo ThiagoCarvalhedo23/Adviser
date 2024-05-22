@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Threading.Tasks;
 
+
 namespace ProjetoWeb.Controllers
 {
     public class HomeController : Controller
@@ -41,6 +42,11 @@ namespace ProjetoWeb.Controllers
             if (file == null || file.Length == 0)
             {
                 ViewData["ErrorMessage"] = "Por favor, selecione um arquivo para fazer upload.";
+                return View("Index");
+            }
+            if (file.Length > 100 * 1024 * 1024) // 100MB em bytes
+            {
+                ViewData["ErrorMessage"] = "O arquivo excede o tamanho máximo permitido (100MB).";
                 return View("Index");
             }
             else
